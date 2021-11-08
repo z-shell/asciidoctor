@@ -1,27 +1,27 @@
 {
-  "_from": "asciidoctor@^2.0.10",
-  "_id": "zsh-asciidoctor@2.0.10",
+  "_from": "asciidoctor@^2.0.16",
+  "_id": "zsh-asciidoctor@2.0.16",
   "_inBundle": false,
   "_location": "/zsh-asciidoctor",
   "_phantomChildren": {},
   "_requested": {
     "type": "range",
     "registry": true,
-    "raw": "asciidoctor@^2.0.10",
+    "raw": "asciidoctor@^2.0.16",
     "name": "asciidoctor",
     "escapedName": "asciidoctor",
-    "rawSpec": "^2.0.10",
+    "rawSpec": "^2.0.16",
     "saveSpec": null,
-    "fetchSpec": "^2.0.10"
+    "fetchSpec": "^2.0.16"
   },
   "_requiredBy": [],
-  "_spec": "asciidoctor@^2.0.10",
+  "_spec": "asciidoctor@^2.0.16",
   "_where": "/root/pkgs/pkg-asciidoctor",
   "author": "Dan Allen, Sarah White, Ryan Waldron",
   "bugs": {
     "url": "https://github.com/asciidoctor/asciidoctor/issues"
   },
-  "version": "2.0.11",
+  "version": "2.0.16",
   "contributors": [],
   "dependencies": {},
   "deprecated": false,
@@ -40,7 +40,7 @@
     "plugin-info": {
       "user": "z-shell",
       "plugin": "null",
-      "version": "2.0.10",
+      "version": "2.0.16",
       "requires": "gem"
     },
     "zplugin-ices": {
