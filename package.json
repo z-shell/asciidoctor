@@ -1,49 +1,31 @@
 {
-  "_from": "asciidoctor@^2.0.16",
-  "_id": "zsh-asciidoctor@2.0.16",
-  "_inBundle": false,
-  "_location": "/zsh-asciidoctor",
-  "_phantomChildren": {},
-  "_requested": {
-    "type": "range",
-    "registry": true,
-    "raw": "asciidoctor@^2.0.16",
-    "name": "asciidoctor",
-    "escapedName": "asciidoctor",
-    "rawSpec": "^2.0.16",
-    "saveSpec": null,
-    "fetchSpec": "^2.0.16"
-  },
-  "_requiredBy": [],
-  "_spec": "asciidoctor@^2.0.16",
-  "_where": "/root/pkgs/pkg-asciidoctor",
   "author": "Dan Allen, Sarah White, Ryan Waldron",
+  "description": "A fast, open source text processor and publishing toolchain, written in Ruby, for converting AsciiDoc content to HTML 5, DocBook 5, and other formats.",
+  "homepage": "https://github.com/asciidoctor/asciidoctor",
+  "license": "MIT",
+  "name": "zsh-asciidoctor",
+  "version": "2.0.17",
   "bugs": {
     "url": "https://github.com/asciidoctor/asciidoctor/issues"
   },
-  "version": "2.0.16",
   "contributors": [],
   "dependencies": {},
   "deprecated": false,
-  "description": "A fast, open source text processor and publishing toolchain, written in Ruby, for converting AsciiDoc content to HTML 5, DocBook 5, and other formats.",
   "devDependencies": {},
-  "homepage": "https://github.com/asciidoctor/asciidoctor",
   "keywords": [
     "asciidoc",
     "asciidoc processor",
     "asciidoc converter",
     "zsh"
   ],
-  "license": "MIT",
-  "name": "zsh-asciidoctor",
   "zsh-data": {
     "plugin-info": {
       "user": "z-shell",
       "plugin": "null",
-      "version": "2.0.16",
+      "version": "2.0.17",
       "requires": "gem"
     },
-    "zplugin-ices": {
+    "zi-ices": {
       "default": {
         "git": "",
         "lucid": "",
