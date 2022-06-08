@@ -14,11 +14,11 @@
     </tr>
     <tr>
         <td><b>Status:</b></td>
-        <td>:x:</td>
-        <td>:x:</td>
-        <td>:x:</td>
-        <td>:x:</td>
-        <td>:heavy_check_mark: (default)</td>
+        <td>❌</td>
+        <td>❌</td>
+        <td>❌</td>
+        <td>❌</td>
+        <td>✔️ (default)</td>
     </tr>
 </table>
 </h3><hr />
