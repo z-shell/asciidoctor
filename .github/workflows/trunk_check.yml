@@ -1,14 +1,28 @@
 ---
-name: "♻️ Trunk Check"
+name: "⭕ Trunk Check"
 on:
-  workflow_dispatch:
   push:
-    branches: ["main"]
+    branches: [main]
+    tags: ["v*.*.*"]
   pull_request:
     types: [opened, synchronize]
+  workflow_dispatch:
 
 jobs:
-  turnk:
+  trunk:
+    name: "⚡"
     uses: z-shell/.github/.github/workflows/trunk.yml@main
+    #secrets:
+      # API token from the Trunk web app settings. This will cause results to be uploaded to the Trunk web app. (Optional)
+      #trunk-token: ${{ secrets.TRUNK_TOKEN }}
     with:
+      # GitHub Actions OS, defaults to ubuntu-latest (Optional).
+      #runs-on:
+      # If it can't be found anywhere and is not provided explicitly, we'll download it on demand. (Optional)
+      #trunk-path:
+      # Set to 'all' to check the entire repository. (Leave unset to autodetect just changes)
+      #check-mode:
+      # Upload series name, for when `trunk-token` is provided. If not provided, we'll use the branch name. (Optional)
+      #upload-series:
+      # Pass arguments to trunk (Optional)
       arguments: --no-progress
