@@ -22,7 +22,6 @@
     "plugin-info": {
       "user": "z-shell",
       "plugin": "null",
-      "version": "2.0.17",
       "requires": "gem"
     },
     "zi-ices": {
